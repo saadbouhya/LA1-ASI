@@ -38,14 +38,14 @@ show running-config | section dhcp # Affiche les commandes DHCPv4 configurées s
 show ip dhcp binding # Affiche une liste de toutes les liaisons d'adresses IPv4 vers MAC fournies par le service DHCPv4.
 show ip dhcp server statistics # Cette commande permet d'afficher le nombre de messages DHCPv4 envoyés et reçus.
 ```
-**Vérifier la configuration DHCPv4**
-![img](verif-config.png)
-**Vérifiez les liaisons DHCPv4**
-![img](verif-liaison.png)
-**Vérifier les statistiques DHCPv4**
-![img](verif-stats.png)
-**Vérifier l'adressage IPv4 reçu par le client DHCPv4**
-![img](verif-adressage.png)
+**Vérifier la configuration DHCPv4**<br/>
+![img](images/verif-config.png)
+**Vérifiez les liaisons DHCPv4**<br/>
+![img](images/verif-liaison.png)
+**Vérifier les statistiques DHCPv4**<br/>
+![img](images/verif-stats.png)
+**Vérifier l'adressage IPv4 reçu par le client DHCPv4**<br/>
+![img](images/verif-adressage.png)
 
 **Désactiver le serveur Cisco IOS DHCPv4**
 ```
@@ -58,9 +58,9 @@ R1(config)# interface g0/0/0
 R1(config-if)# ip helper-address 192.168.11.6
 R1(config-if)# end
 ```
-**Verif**
-![img](verif-relayage.png)
-![img](verif-adressage-relayage.png)
+**Verif**<br/>
+![img](images/verif-relayage.png)
+![img](images/verif-adressage-relayage.png)
 
 ## Routeur en tant que client DHCP
 **config**
